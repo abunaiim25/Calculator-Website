@@ -50,7 +50,7 @@ function log()
 
 function pi()
 {
-    screen.value = 3.14159265359;
+    screen.value = 3.14159265359 || screen.value * 3.14159265359;
 }
 
 function e()
